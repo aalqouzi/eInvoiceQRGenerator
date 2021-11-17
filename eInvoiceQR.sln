@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eInvoiceQRExample", "eInvoiceQR\eInvoiceQRExample.csproj", "{1AA1527C-56E0-4DD8-B095-FF98ADD48F8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZatcaQRUtility", "ZatcaQRUtility\ZatcaQRUtility.csproj", "{7490FCCD-504B-45D8-A2A6-C805730F463F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AA1527C-56E0-4DD8-B095-FF98ADD48F8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AA1527C-56E0-4DD8-B095-FF98ADD48F8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AA1527C-56E0-4DD8-B095-FF98ADD48F8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AA1527C-56E0-4DD8-B095-FF98ADD48F8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7490FCCD-504B-45D8-A2A6-C805730F463F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7490FCCD-504B-45D8-A2A6-C805730F463F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7490FCCD-504B-45D8-A2A6-C805730F463F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7490FCCD-504B-45D8-A2A6-C805730F463F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9C9BE2CB-1C63-4589-8AD6-BECEEF3C0EFF}
+	EndGlobalSection
+EndGlobal
