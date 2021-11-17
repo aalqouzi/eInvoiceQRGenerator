@@ -7,7 +7,7 @@ using System.Text;
 
 namespace ZatcaQRUtility
 {
-    public class QRGenerator
+    public class Generator
     {
         public static string GenerateBase64(string sellerName, string taxNumber, string invoiceTimeStamp, string invoiceTotal, string taxAmount)
         {

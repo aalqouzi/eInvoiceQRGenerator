@@ -19,10 +19,10 @@ namespace eInvoiceQR
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string base64Val = ZatcaQRUtility.QRGenerator.GenerateBase64(txtSellerName.Text, txtTaxNum.Text, txtInvoiceDate.Text, txtTotal.Text, txtTaxAmount.Text);
+            string base64Val = ZatcaQRUtility.Generator.GenerateBase64(txtSellerName.Text, txtTaxNum.Text, txtInvoiceDate.Text, txtTotal.Text, txtTaxAmount.Text);
           
             txtCode.Text = base64Val;
-            pictureBox1.Image = ZatcaQRUtility.QRGenerator.GenerateQR(base64Val);
+            pictureBox1.Image = ZatcaQRUtility.Generator.GenerateQR(base64Val);
         }
     }
 }
