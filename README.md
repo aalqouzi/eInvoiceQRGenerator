@@ -18,7 +18,7 @@ string base64Val = ZatcaQRUtility.Generator.GenerateBase64(data);
 ```
 
 You can use the generated base64 value to generate the required QR.
-Also, the project [ZatcaQRUtility] contains a method that generate a QR image which use the Nuget package **QRCoder (https://github.com/codebude/QRCoder/)**
+Also, the project [ZatcaQRUtility] contains a method that generate a QR image which use the Nuget package **[QRCoder](https://github.com/codebude/QRCoder/)**
 
 ```C#
 Image qrImage = Generator.GenerateQR(base64Val);
